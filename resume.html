@@ -14,25 +14,45 @@
 	}
 	.sphinx {
 		font-weight: 700;
+		border-style: dashed;
+		border-color: blue green red pink;
 	}
 	.introduction {
 		font-size: 18px;
 	}
+	#title {
+		border-style: solid;
+		border-radius: 50px;
+		/*border-image: url("https://img.alicdn.com/imgextra/i3/1132080313/TB27_hdzf5TBuNjSspcXXbnGFXa_!!1132080313.jpg");*/
+		/*border-image-slice: 50;*/
+		background-color: grey;
+		border-color: black;
+	}
+	.common_list {
+		list-style-type: square;
+	}
+	#zak_mail {
+		white-space: pre_wrap;
+	}
+	a#zak_mail:link {color: #00FF00;}    /* 未被访问的链接 */
+	a#zak_mail:visited {color:#00FF00;} /* 已被访问的链接 */
+	a#zak_mail:hover {color:#FF00FF;}   /* 鼠标指针移动到链接上 */
+	a#zak_mail:active {color:#0000FF;}  /* 正在被点击的链接 */
 </style>
 <body>
-<h1 align="center"> 简历 </h1>
+<h1 id='title' align="center"> 简历 </h1>
 <br>
 <h4>基本信息</h4>
-<ul type="square">
+<ul class='common_list'>
 <li><p>姓名：	 Zak Zheng</p></li>
 <li><p>学历：	 本科</p></li>
 <li><p>毕业院校： xx理工</p></li>
 <li><p>手机：	 123456789</p></li>
-<li><p>邮箱：	 1246@163.com</p></li>
+<li><p>邮箱：	 <a id='zak_mail' href="xxxx@123.com">1246@163.com</a></p></li>
 </ul>
 <br>
 <h4>项目经历</h4>
-<ul type="square">
+<ul class='common_list'>
 <li>
 	<p>XXXX项目</p>
 	<ul>
