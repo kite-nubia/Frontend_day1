@@ -1,0 +1,48 @@
+#title{
+	text-indent: 50px;
+	font-size: 40px;
+	font-weight: 550;
+}
+.level1{
+	text-indent: 50px;
+	font-size: 30px;
+	clear: both;
+}
+.level2_attribute{
+	text-indent: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	float: left;
+}
+.level2_value{
+	text-indent: 50px;
+	font-size: 20px;
+	float: left;
+}
+.level3{
+	text-indent: 50px;
+	font-size: 20px;
+	font-weight: 600
+}
+.level4{
+	text-indent: 50px;
+	font-size: 20px;
+}
+.sphinx {
+	font-weight: 700;
+	border-style: dashed;
+	border-color: blue green red pink;
+}
+.introduction {
+	font-size: 18px;
+}
+.common_list {
+	list-style-type: square;
+}
+#zak_mail {
+	white-space: pre_wrap;
+}
+a#zak_mail:link {color: #00FF00;}    /* 未被访问的链接 */
+a#zak_mail:visited {color:#00FF00;} /* 已被访问的链接 */
+a#zak_mail:hover {color:#FF00FF;}   /* 鼠标指针移动到链接上 */
+a#zak_mail:active {color:#0000FF;}  /* 正在被点击的链接 */
